@@ -7,13 +7,13 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: ### General
+      value: "### General"
   - type: textarea
     id: describiton
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is
-    validation:
+    validations:
       required: true
   - type: textarea
     id: reproduce
@@ -25,25 +25,25 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-    validation:
+    validations:
       required: true
   - type: textarea
     id: expected
     attributes:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen
-    validation:
+    validations:
       required: true
   - type: textarea
     id: screenshotes
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem
-    validation:
+    validations:
       required: false
   - type: markdown
     attributes:
-      value: ### Versions and additions
+      value: "### Versions and additions"
   - type: dropdown
     id: version
     attributes:
@@ -63,29 +63,29 @@ body:
     attributes:
       label: Other Version
       description: If other or snapshot version is selected, witch versions?
-    validation:
+    validations:
       required: false
   - type: input
     id: os
     attributes:
       label: Operation System
       description: On witch operation system did the bug occur?
-    validation:
+    validations:
       required: true
   - type: input
     id: extentions
     attributes:
       label: Extentions
       description: Witch extentions (mods, texturepacks, etc.) where installed.
-    validation:
+    validations:
       required: true
   - type: markdown
     attributes:
-      value: ### Additional
+      value: "### Additional"
   - type: textarea
     id: additional
     attributes:
       label: Additional context
       description: Add any other context about the problem here
-    validation:
+    validations:
       required: false
