@@ -1,7 +1,7 @@
-name: Bug report
-description: Create a report to help us improve
-title: "[Bug]: "
-labels: ["Type: Enchatn"]
+name: Future request
+description: Suggest an idea for this project
+title: "[Enchant]: "
+labels: ["Type: Enchant"]
 assignees:
   - CheeseTastisch
 body:
