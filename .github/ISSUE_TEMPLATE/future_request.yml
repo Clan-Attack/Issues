@@ -5,7 +5,7 @@ labels: ["Type: Enchatn"]
 assignees:
   - CheeseTastisch
 body:
-  - type: checkbox
+  - type: checkboxes
     id: problem
     attributes:
       label: Is your feature request related to a problem?
