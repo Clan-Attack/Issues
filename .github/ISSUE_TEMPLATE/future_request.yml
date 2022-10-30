@@ -6,7 +6,7 @@ assignees:
   - CheeseTastisch
 body:
   - type: checkboxes
-    id: problem
+    id: isproblem
     attributes:
       label: Is your feature request related to a problem?
       options:
