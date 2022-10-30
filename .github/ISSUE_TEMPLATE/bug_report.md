@@ -1,8 +1,9 @@
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: 'Type: Bug'
-assignees: CheeseTastisch
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["Type: Bug"]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
