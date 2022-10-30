@@ -20,7 +20,7 @@ dependencies {
 }
 
 bukkit {
-    main = "at.clanattack.central.Central"
+    main = "<Path to main>"
     name = "Clanattack-<Name>"
     version = "0.1"
     apiVersion = "1.19"
