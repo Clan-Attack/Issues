@@ -7,7 +7,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "### General"
+      value: "# General"
   - type: textarea
     id: describiton
     attributes:
@@ -43,7 +43,7 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: "### Versions and additions"
+      value: "# Versions and extentions"
   - type: dropdown
     id: version
     attributes:
@@ -81,7 +81,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "### Additional"
+      value: "# Additional"
   - type: textarea
     id: additional
     attributes:
