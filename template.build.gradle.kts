@@ -13,10 +13,12 @@ version = "0.1"
 
 repositories {
     mavenCentral()
+    maven("https://maven.clan-attack.at/releases")
 }
 
 dependencies {
     paperDevBundle("1.19.2-R0.1-SNAPSHOT")
+    compileOnly("at.clanattack:Core:0.1")
 }
 
 bukkit {
