@@ -1,8 +1,0 @@
-# User Specific
-.idea/
-*.iml
-
-# Working directories
-run/
-build/
-.gradle/
